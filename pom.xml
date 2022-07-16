@@ -47,6 +47,18 @@
 		</snapshotRepository>
 	</distributionManagement>-->
 
+	<distributionManagement>
+	    <repository>
+		<id>central</id>
+		<name>DESKTOP-DACS7LI-releases</name>
+		<url>http://localhost:8081/artifactory/esmt</url>
+	    </repository>
+	    <snapshotRepository>
+		<id>snapshots</id>
+		<name>DESKTOP-DACS7LI-snapshots</name>
+		<url>http://localhost:8081/artifactory/esmt</url>
+	    </snapshotRepository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
